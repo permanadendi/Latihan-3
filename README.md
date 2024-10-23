@@ -13,9 +13,9 @@
 
 File Pegawai
 
-public class Pegawai {
-private String nama;
-private double gajiPokok;
+    public class Pegawai {
+    private String nama;
+    private double gajiPokok;
 
     // Setter dan getter untuk nama
     public void setNama(String nama) {
@@ -43,8 +43,8 @@ private double gajiPokok;
 
 File Manager
 
-public class Manager extends Pegawai {
-private double tunjangan;
+    public class Manager extends Pegawai {
+    private double tunjangan;
 
     // Setter dan getter untuk tunjangan
     public void setTunjangan(double tunjangan) {
@@ -70,8 +70,8 @@ private double tunjangan;
 
 File Progammer
 
-public class Programmer extends Pegawai {
-private double bonus;
+    public class Programmer extends Pegawai {
+    private double bonus;
 
     // Setter dan getter untuk bonus
     public void setBonus(double bonus) {
@@ -97,15 +97,15 @@ private double bonus;
 
 Main Java
 
-public class Main {
-public static void main(String[] args) {
-// Membuat objek Manager
-Manager manager = new Manager();
-manager.setNama("Budi");
-manager.setGajiPokok(5000000);
-manager.setTunjangan(1000000);
-manager.cetakInfo();
-manager.cetakTunjangan();
+        public class Main {
+        public static void main(String[] args) {
+        // Membuat objek Manager
+        Manager manager = new Manager();
+        manager.setNama("Budi");
+        manager.setGajiPokok(5000000);
+        manager.setTunjangan(1000000);
+        manager.cetakInfo();
+        manager.cetakTunjangan();
 
         // Membuat objek Programmer
         Programmer programmer = new Programmer();
