@@ -120,4 +120,4 @@ Main Java
 
 ### Tampilan Output
 
-![Gambar 1](Screenshot/ss)
+![Gambar 1](Screenshot/ss1.png)
